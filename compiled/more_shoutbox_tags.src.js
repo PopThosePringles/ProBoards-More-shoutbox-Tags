@@ -41,7 +41,7 @@ class More_Shoutbox_Tags {
 
 	static create_extra_tags(){
 		let $tools = this.$shoutbox.find(".tools");
-		let tags = ["video", "image", "justify_left"];
+		let tags = ["video", "image"];
 
 		for(let i = 0; i < tags.length; ++ i){
 			let t = tags[i];

@@ -55,7 +55,7 @@ var More_Shoutbox_Tags = function () {
 		key: "create_extra_tags",
 		value: function create_extra_tags() {
 			var $tools = this.$shoutbox.find(".tools");
-			var tags = ["video", "image", "justify_left"];
+			var tags = ["video", "image"];
 
 			for (var i = 0; i < tags.length; ++i) {
 				var t = tags[i];
